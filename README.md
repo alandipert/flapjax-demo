@@ -14,7 +14,7 @@ Set up and start the server like this:
     $ lein cljsbuild once
     $ lein ring server-headless 3000
 
-Now, point your web browser at `http://localhost:3000/index.html`, and see Flapjax in action!
+Now, point your web browser at http://localhost:3000/index.html and see Flapjax in action!
 
 [1]: http://www.flapjax-lang.org/
 [2]: http://en.wikipedia.org/wiki/Functional_reactive_programming
