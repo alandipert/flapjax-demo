@@ -1,0 +1,50 @@
+/* Chunks borrowed from the awesome http://webcache.googleusercontent.com/search?q=cache:trtUaFrcxHIJ:https://challenge.synacor.com/+&cd=1&hl=en&ct=clnk&gl=us */
+
+@font-face {
+  font-family: term;
+  src: url("/Glass_TTY_VT220.ttf") format("truetype");
+}
+
+body {
+  margin: 30px auto 0 auto;
+  background-color: #051005;
+  color: #0f0;
+  font-size: 30pt;
+  font-family: "term", monospace;
+  text-shadow: 0 0 0.4em #30bb30;
+  width: 800px;
+}
+
+h1 {
+  font-size: 100%;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 100%;
+  margin: 0;
+  display: inline;
+  color: #ffffff;
+  text-shadow:
+    0 0 0.2em #ffffff,
+    0 0 0.4em #ffffff,
+    0 0 0.8em #ffffff,
+    0 0 1.6em #ffffff;
+}
+
+input {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input.text {
+  width: 14em;
+  text-shadow:
+    0 0 0.4em #30bb30,
+    0 0 0.8em #30bb30;
+}
