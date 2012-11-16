@@ -25,7 +25,7 @@
 (defn sumB
   "Returns a behavior representing the sum of behaviors."
   [& behaviors]
-  (apply fj/liftB (comp (partial apply +) vector) behaviors))
+  (apply fj/liftB #(apply + %&) behaviors))
 
 (defn ^:export calculate [target-id & source-ids]
   (let [arguments (map #(extractNumberB % 0) source-ids)
