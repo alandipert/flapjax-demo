@@ -1,5 +1,7 @@
 # flapjax-demo
 
+See the demo running: http://alandipert.github.com/flapjax-demo/
+
 This is a web application that uses [Flapjax][1] to demonstrate
 [Functional Reactive Programming (FRP)][2] in [ClojureScript][3].
 
